@@ -1,8 +1,11 @@
 import { Router } from 'express';
+import { getPost, putMorning, putNight } from '../controller/postController';
 
 const router = new Router();
 
-router.get('/postPost', (req, res) => res.send('hello, boilerplate'));
-router.get('/getPost', (req, res) => res.send('hello, boilerplate'));
+router.get('/', getPost);
+
+router.put('/morning', putMorning);
+router.put('/night', putNight);
 
 export default router;

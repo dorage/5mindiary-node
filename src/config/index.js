@@ -62,3 +62,5 @@ export const configs = {
     clientURL: cast('CLIENT_URL', 'string', 'http://localhost:4000'),
     serverURL: cast('CLIENT_URL', 'string', 'http://localhost:3000'),
 };
+
+export const nothing = null;

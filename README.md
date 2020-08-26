@@ -22,3 +22,6 @@ NODE_ENV = 'production' 으로 실행됩니다.
 
     .env.production 이 있어야합니다.
     $ npm run production
+
+## application
+
